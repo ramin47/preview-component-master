@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EDF2F8;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    width: 750px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 265px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.img-main {
+    width: 300px;
+    border-radius: 15px 0 0 15px;
+
+}
+
+.header-one {
+    margin-left: 25px;
+    color: #616B76;
+    font-size: 26px;
+}
+
+.parag-one {
+    margin-left: 25px;
+    color:#A9B1BB;
+}
+
+.img-profile {
+    width: 42px;
+    height: 42px;
+    margin-left: 25px;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+
+.img-social {
+    width: 30px;
+    height: 30px;
+    margin-left: 200px;
+    margin-top: 15px;
+    background-color: #EDF0F7;
+    border-radius: 15px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.social-div {
+    display: flex;
+    margin-top: -10px;
+}
+
+.name {
+    color: #616B76;
+    margin-left: 12px;
+    font-size: 15px;
+}
+
+.name-second {
+    color: #A9B1BB;
+    font-size: 10px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 23px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: white;
+  }
+  
+  .fa-twitter {
+    color: white;
+  }
+  
+  .fa-google {
+    color: white;
+  }
+
+  .hide {
+    background-color: #49556B;
+    display: flex;
+    width: 175px;
+    border-radius: 15px;
+    margin-left: 320px;
+
+  }
+
+  .second-hidden {
+    display: none;
+  }
+
+@media (max-width: 700px) {
+    .container {
+        display: grid;
+        width: 300px;
+        height: 500px;
+        margin-left: 100px;
+        margin-right: 0;
+        margin-top: 50px;
+        text-align: left;
+        border-radius: 15px 15px 0 0;        
+
+    }
+
+    .img-main {
+        width: 300px;
+        border-radius: 15px 15px 0 0;        
+
+    }
+
+    .social-div {
+        display: none;
+    }
+    .social-hide {
+        display: none;
+    }
+
+    .header-one {
+        font-size: 20px;
+    }
+
+    .second-hidden {
+        display: block;
+        background-color: #49556B;
+        margin-top: -10px;
+        display: flex;
+        width: 300px;
+        margin-bottom: 10px;
+        border-radius: 0 0 15px 15px;
+    }
+    .second-parag {
+        color: white;
+        font-size: 15px;
+        margin-left: 25px;
+    }
+
+    .img-second-hidden {
+        background-color: #EDF0F7;
+        width: 30px;
+        height: 30px;
+        padding: 4px;
+        margin-top: 10px;
+    }
+    
+}
+
